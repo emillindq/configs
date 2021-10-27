@@ -1,0 +1,17 @@
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+    trustExitCode = true
+[alias]
+	d = difftool
+    c = checkout
+	s = status
+	l = log --graph --all
+[user]
+#	email = emil.lindqvist@peri.se
+#	name = Emil Lindqvist
+	email = emil@lindq.gr
+	name = Emil Lindqvist
+[merge]
+	tool = vimdiff
